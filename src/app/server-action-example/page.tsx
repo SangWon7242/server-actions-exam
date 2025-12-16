@@ -6,7 +6,7 @@ const Page = () => {
       <h1>서버 액션 예제</h1>
       <form action={sendMessage}>
         <label htmlFor="message">메시지</label>
-        <input type="text" name="message" />
+        <input type="text" name="message" id="message" />
         <button type="submit">전송</button>
       </form>
     </div>
